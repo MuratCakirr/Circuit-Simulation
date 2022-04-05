@@ -11,7 +11,7 @@ struct kapi{
 	char giris_2;
 	int sure;
 }list[10];
-int a=-1,b=-1,c=-1,d=-1,e=-1,f=-1;
+int a=1,b=1,c=1,d=1,e=1,f=1;
 char c1,c2;
 int sayac=0;
 char g1[3],g2[2];
@@ -96,7 +96,7 @@ void Baska_Dosya(){
 	
 }
 void K_Y(){
-	//devre yükler
+	//devre yï¿½kler
 	int i=0,j=0,k=0;
 	ptDevre=fopen("devre.txt","r");
 	do{
@@ -211,7 +211,7 @@ void K_I(){
 		
 }
 void K_H(char n){
-	//GÝRÝLEN UCUN DEGERÝ 1 YAPAR
+	//Gï¿½Rï¿½LEN UCUN DEGERï¿½ 1 YAPAR
 		
 		
 		if(n=='a'){
@@ -237,7 +237,7 @@ void K_H(char n){
 	
 	}
 void K_L(char n){
-	//GÝRÝLEN UCUN DEGERÝ 0 OLUR
+	//Gï¿½Rï¿½LEN UCUN DEGERï¿½ 0 OLUR
 		if(n=='a'){
 			a=0;
 		}			
@@ -262,7 +262,7 @@ void K_S(){
 	//devreyi simule eder
 }
 void K_G(char n){
-	//ÝLGÝLÝ UCUN DEGERÝNÝ BASAR
+	//ï¿½LGï¿½Lï¿½ UCUN DEGERï¿½Nï¿½ BASAR
 		if(n=='a'){
 		printf("a: %d",a);
 		}			
@@ -286,7 +286,7 @@ void K_G1(){
 printf("a: %d\t b: %d\t c: %d\t d:%d\t e:%d\t f:%d\t\n",a,b,c,d,e,f);
 }
 void K_C(){
-	//benzetimden çýkýþ yapar
+	//benzetimden ï¿½ï¿½kï¿½ï¿½ yapar
 	ctrl=0;
 }
 int main() {
