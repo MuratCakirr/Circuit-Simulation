@@ -11,7 +11,7 @@ struct kapi{
 	char giris_2;
 	int sure;
 }list[10];
-int a=1,b=1,c=1,d=1,e=1,f=1;
+int a=-1,b=-1,c=-1,d=-1,e=-1,f=-1;
 char c1,c2;
 int sayac=0;
 char g1[3],g2[2];
